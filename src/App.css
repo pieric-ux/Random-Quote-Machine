@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: baseline;
+}
+body {
+  background-color: #333;
+  color: #333;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#quote-box {
+  border-radius: 3px;
+  width: 500px;
+  padding: 40px 50px;
+  background-color: #fff;
+}
+
+#new-quote {
+  float: right;
+  height: 40px;
+  border-color: #333;
+  color: #333;
+  border-radius: 3px;
+  padding: 10px 30px 10px 30px;
+  cursor: pointer;
+}
+#tweet-quote {
+  color: #00aced;
+}
